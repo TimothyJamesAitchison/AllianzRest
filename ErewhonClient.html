@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>JavaScript Erewhon Client GET / DELETE</title>
+<h2>JavaScript Erewhon Client GET / DELETE</h2>
+
+<span>Client Name: </span><input id="clientName"></input>
+
+<br><br><br>
+
+<button onclick="doGET()">GET</button>
+<button onclick="doGetAll()">GET ALL</button>
+<button onclick="doDELETE()">DELETE</button>
+
+<br>
+
+<textarea rows="4" cols="50" id="myText"/></textarea>
+
+<br>
+<h2>JavaScript Erewhon Client POST</h2>
+<span>Client Name: </span><input id="clientNamePost"></input><br>
+<span>Client City: </span><input id="clientCity"></input><br>
+<span>Client Country: </span><input id="clientCountry"></input><br>
+<span>Client Email: </span><input id="clientEmail"></input><br>
+<span>Client Fax: </span><input id="clientFax"></input><br>
+<span>Client Phone: </span><input id="clientPhone"></input><br>
+<span>Client Street: </span><input id="clientStreet"></input><br>
+<span>Client WebSite: </span><input id="clientWebSite"></input><br>
+
+<br><br>
+<button onclick="doPOST()">POST</button><br>
+<textarea rows="4" cols="50" id="myPostText"/></textarea>
+
+<script>
+	const doGET = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Client/" + escape(clientName.value) + "?ErewhonRestApp";
+		fetch(url, {method: 'GET'})
+			.then( response => response.json())
+			.then( getResponse => document.getElementById("myText").innerHTML = JSON.stringify(getResponse));
+	}
+	
+	const doGetAll = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/AllClients?ErewhonRestApp";
+		fetch(url, {method: 'GET'})
+			.then( response => response.json())
+			.then( getResponse => document.getElementById("myText").innerHTML = JSON.stringify(getResponse));
+	}
+	
+	const doPOST = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Client?ErewhonRestApp";
+		let myObj= {name : clientNamePost.value,
+					city: clientCity.value, 
+					country: clientCountry.value,
+					email: clientEmail.value,
+					fax: clientFax.value,
+					phone: clientPhone.value,
+					street: clientStreet.value,
+					webSite: clientWebSite.value};
+					
+		fetch(url, {method: 'POST', body: JSON.stringify(myObj)})
+			.then( response => response.json())
+			.then(postResponse => document.getElementById("myPostText").innerHTML = JSON.stringify(postResponse));
+	}
+	
+	const doDELETE = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Client/" + escape(clientName.value) + "?ErewhonRestApp";
+		fetch(url, {method: 'DELETE'})
+			.then( response => response.text())
+			.then( deleteResponse => document.getElementById("myText").innerHTML = deleteResponse);
+	}
+	
+</script>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>JavaScript Erewhon Agent GET / DELETE</title>
+<h2>JavaScript Erewhon Agent GET / DELETE</h2>
+
+<span>Agent Name: </span><input id="agentName"></input>
+
+<br><br><br>
+
+<button onclick="doGET()">GET</button>
+<button onclick="doGetAll()">GET ALL</button>
+<button onclick="doDELETE()">DELETE</button>
+
+<br>
+
+<textarea rows="4" cols="50" id="myText"/></textarea>
+
+<br>
+<h2>JavaScript Erewhon Agent POST</h2>
+<span>Agent Name: </span><input id="agentNamePost"></input><br>
+<span>Agent City: </span><input id="agentCity"></input><br>
+<span>Agent Country: </span><input id="agentCountry"></input><br>
+<span>Agent Email: </span><input id="agentEmail"></input><br>
+<span>Agent Fax: </span><input id="agentFax"></input><br>
+<span>Agent Phone: </span><input id="agentPhone"></input><br>
+<span>Agent Street: </span><input id="agentStreet"></input><br>
+<span>Agent WebSite: </span><input id="agentWebSite"></input><br>	
+
+<br><br>
+<button onclick="doPOST()">POST</button><br>
+<textarea rows="4" cols="50" id="myPostText"/></textarea>
+
+<script>
+	const doGET = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Agent/" + escape(agentName.value) + "?ErewhonRestApp";
+		fetch(url, {method: 'GET'})
+			.then( response => response.json())
+			.then( getResponse => document.getElementById("myText").innerHTML = JSON.stringify(getResponse));
+	}
+	
+	const doGetAll = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/AllAgents?ErewhonRestApp";
+		fetch(url, {method: 'GET'})
+			.then( response => response.json())
+			.then( getResponse => document.getElementById("myText").innerHTML = JSON.stringify(getResponse));
+	}
+	
+	const doPOST = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Agent?ErewhonRestApp";
+		let myObj= {name : agentNamePost.value,
+					city: agentCity.value, 
+					country: agentCountry.value,
+					email: agentEmail.value,
+					fax: agentFax.value,
+					phone: agentPhone.value,
+					street: agentStreet.value,
+					webSite: agentWebSite.value};
+					
+		fetch(url, {method: 'POST', body: JSON.stringify(myObj)})
+			.then( response => response.json())
+			.then(postResponse => document.getElementById("myPostText").innerHTML = JSON.stringify(postResponse));
+	}
+	
+	const doDELETE = () => {
+		let url = "http://localhost/JadeRestSite/jadehttp.dll/Agent/" + escape(agentName.value) + "?ErewhonRestApp";
+		fetch(url, {method: 'DELETE'})
+			.then( response => response.text())
+			.then( deleteResponse => document.getElementById("myText").innerHTML = deleteResponse);
+	}
+	
+</script>
