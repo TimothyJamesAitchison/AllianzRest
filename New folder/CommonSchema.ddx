@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema name="CommonSchema" JadeVersionNumber="18.0.00" JadePatchNumber="0" CompleteDefinition="true">
+
+	<Application name="CommonSchema">
+		<__overridePatchNumber>0</__overridePatchNumber>
+		<__patchControlString/>
+		<_aboutFormName/>
+		<_defaultLocaleId>0</_defaultLocaleId>
+		<_modifiedBy>cnwtb5</_modifiedBy>
+		<_modifiedTimestamp>2018:09:12:15:30:50.147</_modifiedTimestamp>
+		<_patchVersion>0</_patchVersion>
+		<_startupFormName/>
+		<_systemVersion>99.0.00</_systemVersion>
+		<aboutForm/>
+		<appVersion/>
+		<applicationType>G</applicationType>
+		<controlSpacing>4</controlSpacing>
+		<defaultApp>true</defaultApp>
+		<defaultMdi>false</defaultMdi>
+		<finalizeMethod/>
+		<fontBold>false</fontBold>
+		<fontName>MS Sans Serif</fontName>
+		<fontSize>8.25</fontSize>
+		<formMargin>7</formMargin>
+		<heightSingleLineControl>14</heightSingleLineControl>
+		<helpFile/>
+		<icon/>
+		<initializeMethod/>
+		<mousePointer>0</mousePointer>
+		<name>CommonSchema</name>
+		<showBubbleHelp>false</showBubbleHelp>
+		<startupForm/>
+		<useBorderStyleOnly>false</useBorderStyleOnly>
+		<userSecurityLevel>0</userSecurityLevel>
+		<webMinimumResponseTime>0</webMinimumResponseTime>
+		<threeDControls>
+			<GUIClass name="CheckBox" />
+			<GUIClass name="GroupBox" />
+			<GUIClass name="OptionButton" />
+		</threeDControls>
+	</Application>
+
+	<Global name="GCommonSchema">
+	</Global>
+
+	<PainterControlDefinition name="LineRule3D">
+		<bitmap>AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA
+/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA8iIiIiIiIiDyD///////IPIAAAAA
+AA8g8gAAAAAADyDyAAAAAAAPIPIAAAAAAA8g8gAAAAAADyDyAAAAAAAPIPIAAAAAAAAg8iIiIiIi
+IiD//////////wAAAAAAAAAAAAAAAAAAAAD//wAA//8AAAAAAAAAAAAAAAAAAB/4AAAf+AAAH/gA
+AB/4AAAf+AAAH/gAAAAAAAAAAAAAAAAAAP//AAD//wAA</bitmap>
+		<bitmapDisabled/>
+		<bitmapDown/>
+		<bitmapID>0</bitmapID>
+		<bitmapOver/>
+		<hideFromPainterControlPalette>false</hideFromPainterControlPalette>
+		<name>LineRule3D</name>
+		<windowClass>AlFrame</windowClass>
+		<PainterControlProperties>
+			<PainterControlProperty name="alignChildren">
+				<cntrlType>100</cntrlType>
+				<name>alignChildren</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Align Width</String>
+					<String>2 - All</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="alignContainer">
+				<cntrlType>100</cntrlType>
+				<name>alignContainer</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Align Top</String>
+					<String>2 - Align Bottom</String>
+					<String>3 - Align Width</String>
+					<String>4 - Stretch to next control below</String>
+					<String>5 - Align Container</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="alignment">
+				<cntrlType>100</cntrlType>
+				<name>alignment</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - Left  justify - TOP</String>
+					<String>1 - Left  justify - MIDDLE</String>
+					<String>2 - Left  justify - BOTTOM</String>
+					<String>3 - Right justify - TOP</String>
+					<String>4 - Right justify - MIDDLE</String>
+					<String>5 - Right justify - BOTTOM</String>
+					<String>6 - Center - TOP</String>
+					<String>7 - Center - MIDDLE</String>
+					<String>8 - Center - BOTTOM</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="allowDocking">
+				<cntrlType>4</cntrlType>
+				<name>allowDocking</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backBrush">
+				<cntrlType>11</cntrlType>
+				<name>backBrush</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backBrushStyle">
+				<cntrlType>100</cntrlType>
+				<name>backBrushStyle</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - tile</String>
+					<String>1 - stretch</String>
+					<String>2 - center</String>
+					<String>3 - stretch proportional</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="backColor">
+				<cntrlType>7</cntrlType>
+				<name>backColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelColor">
+				<cntrlType>7</cntrlType>
+				<name>bevelColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelInner">
+				<cntrlType>100</cntrlType>
+				<name>bevelInner</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Inset</String>
+					<String>2 - Raised</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelInnerWidth">
+				<cntrlType>4</cntrlType>
+				<name>bevelInnerWidth</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelOuter">
+				<cntrlType>100</cntrlType>
+				<name>bevelOuter</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Inset</String>
+					<String>2 - Raised</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelOuterWidth">
+				<cntrlType>4</cntrlType>
+				<name>bevelOuterWidth</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="bevelShadowColor">
+				<cntrlType>7</cntrlType>
+				<name>bevelShadowColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderColorSingle">
+				<cntrlType>7</cntrlType>
+				<name>borderColorSingle</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderStyle">
+				<cntrlType>100</cntrlType>
+				<name>borderStyle</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Fixed single</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="boundaryBrush">
+				<cntrlType>100</cntrlType>
+				<name>boundaryBrush</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String>0 - Solid Brush</String>
+					<String>1 - Dotted Brush</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="boundaryColor">
+				<cntrlType>7</cntrlType>
+				<name>boundaryColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="boundaryWidth">
+				<cntrlType>4</cntrlType>
+				<name>boundaryWidth</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="bubbleHelp">
+				<cntrlType>2</cntrlType>
+				<name>bubbleHelp</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="caption">
+				<cntrlType>2</cntrlType>
+				<name>caption</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="clipControls">
+				<cntrlType>3</cntrlType>
+				<name>clipControls</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="description">
+				<cntrlType>2</cntrlType>
+				<name>description</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="dragCursor">
+				<cntrlType>11</cntrlType>
+				<name>dragCursor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="enabled">
+				<cntrlType>3</cntrlType>
+				<name>enabled</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusBackColor">
+				<cntrlType>7</cntrlType>
+				<name>focusBackColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusForeColor">
+				<cntrlType>7</cntrlType>
+				<name>focusForeColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontBold">
+				<cntrlType>3</cntrlType>
+				<name>fontBold</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontItalic">
+				<cntrlType>3</cntrlType>
+				<name>fontItalic</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontName">
+				<cntrlType>8</cntrlType>
+				<name>fontName</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontSize">
+				<cntrlType>9</cntrlType>
+				<name>fontSize</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontStrikethru">
+				<cntrlType>3</cntrlType>
+				<name>fontStrikethru</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontUnderline">
+				<cntrlType>3</cntrlType>
+				<name>fontUnderline</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="foreColor">
+				<cntrlType>7</cntrlType>
+				<name>foreColor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="height">
+				<cntrlType>10</cntrlType>
+				<name>height</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpContextId">
+				<cntrlType>5</cntrlType>
+				<name>helpContextId</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpKeyword">
+				<cntrlType>2</cntrlType>
+				<name>helpKeyword</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="ignoreSkin">
+				<cntrlType>3</cntrlType>
+				<name>ignoreSkin</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="left">
+				<cntrlType>10</cntrlType>
+				<name>left</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mouseCursor">
+				<cntrlType>11</cntrlType>
+				<name>mouseCursor</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mousePointer">
+				<cntrlType>100</cntrlType>
+				<name>mousePointer</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String> 0 - Default</String>
+					<String> 1 - Arrow</String>
+					<String> 2 - Cross</String>
+					<String> 3 - I-Beam</String>
+					<String> 4 - Icon</String>
+					<String> 5 - Size</String>
+					<String> 6 - Size NE SW</String>
+					<String> 7 - Size N S</String>
+					<String> 8 - Size NW SE</String>
+					<String> 9 - Size W E</String>
+					<String>10 - Up Arrow</String>
+					<String>11 - HourGlass</String>
+					<String>12 - No Drop</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="name">
+				<cntrlType>1</cntrlType>
+				<name>name</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parent">
+				<cntrlType>-102</cntrlType>
+				<name>parent</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentAspect">
+				<cntrlType>100</cntrlType>
+				<name>parentAspect</name>
+				<parent name="LineRule3D" />
+				<PainterControlPropertyOptions>
+					<String> 0 - None</String>
+					<String> 1 - Stretch Right</String>
+					<String> 2 - Stretch Bottom</String>
+					<String> 3 - Stretch Both</String>
+					<String> 4 - Anchor Right</String>
+					<String> 6 - Anchor Right &amp; Stretch Bottom</String>
+					<String> 8 - Anchor Bottom</String>
+					<String> 9 - Anchor Bottom &amp; Stretch Right</String>
+					<String>12 - Anchor Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="parentBottomOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentBottomOffset</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentRightOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentRightOffset</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeHeight">
+				<cntrlType>3</cntrlType>
+				<name>relativeHeight</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeLeft">
+				<cntrlType>3</cntrlType>
+				<name>relativeLeft</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeTop">
+				<cntrlType>3</cntrlType>
+				<name>relativeTop</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeWidth">
+				<cntrlType>3</cntrlType>
+				<name>relativeWidth</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelEnabled">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelEnabled</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelVisible">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelVisible</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="skinCategoryName">
+				<cntrlType>2</cntrlType>
+				<name>skinCategoryName</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabIndex">
+				<cntrlType>4</cntrlType>
+				<name>tabIndex</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tag">
+				<cntrlType>2</cntrlType>
+				<name>tag</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="top">
+				<cntrlType>10</cntrlType>
+				<name>top</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="transparent">
+				<cntrlType>3</cntrlType>
+				<name>transparent</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="visible">
+				<cntrlType>3</cntrlType>
+				<name>visible</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="width">
+				<cntrlType>10</cntrlType>
+				<name>width</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+			<PainterControlProperty name="wordWrap">
+				<cntrlType>3</cntrlType>
+				<name>wordWrap</name>
+				<parent name="LineRule3D" />
+			</PainterControlProperty>
+		</PainterControlProperties>
+	</PainterControlDefinition>
+
+	<PainterControlDefinition name="CollectionListBox">
+		<bitmap>AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA
+/wD/AP//AAD///8AB3d3d3d3d3cAAAAAAAAABw+Pj48IiIgHCPj4+AiAiAcPgACPCAAIBwj4+PgI
+iIgHD4AAjwAAAAcI+Pj4CIiIBw+AAI8IiIgHCPj4+Ad3dwcPgACPAAAABwj4+PgIiIgHD4AAjwgA
+CAcI+Pj4CICIBw+Pj48IiIgHAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA</bitmap>
+		<bitmapDisabled/>
+		<bitmapDown/>
+		<bitmapID>0</bitmapID>
+		<bitmapOver/>
+		<hideFromPainterControlPalette>false</hideFromPainterControlPalette>
+		<name>CollectionListBox</name>
+		<windowClass>AlList</windowClass>
+		<PainterControlProperties>
+			<PainterControlProperty name="alternatingRowBackColor">
+				<cntrlType>7</cntrlType>
+				<name>alternatingRowBackColor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="alternatingRowBackColorCount">
+				<cntrlType>4</cntrlType>
+				<name>alternatingRowBackColorCount</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backBrush">
+				<cntrlType>11</cntrlType>
+				<name>backBrush</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backBrushStyle">
+				<cntrlType>100</cntrlType>
+				<name>backBrushStyle</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - tile</String>
+					<String>1 - stretch</String>
+					<String>2 - center</String>
+					<String>3 - stretch proportional</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="backColor">
+				<cntrlType>7</cntrlType>
+				<name>backColor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderColorSingle">
+				<cntrlType>7</cntrlType>
+				<name>borderColorSingle</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderStyle">
+				<cntrlType>100</cntrlType>
+				<name>borderStyle</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Fixed single</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bubbleHelp">
+				<cntrlType>2</cntrlType>
+				<name>bubbleHelp</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="defaultLineHeight">
+				<cntrlType>4</cntrlType>
+				<name>defaultLineHeight</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="description">
+				<cntrlType>2</cntrlType>
+				<name>description</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="dragCursor">
+				<cntrlType>11</cntrlType>
+				<name>dragCursor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="enabled">
+				<cntrlType>3</cntrlType>
+				<name>enabled</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusBackColor">
+				<cntrlType>7</cntrlType>
+				<name>focusBackColor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusForeColor">
+				<cntrlType>7</cntrlType>
+				<name>focusForeColor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontBold">
+				<cntrlType>3</cntrlType>
+				<name>fontBold</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontItalic">
+				<cntrlType>3</cntrlType>
+				<name>fontItalic</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontName">
+				<cntrlType>8</cntrlType>
+				<name>fontName</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontSize">
+				<cntrlType>9</cntrlType>
+				<name>fontSize</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontStrikethru">
+				<cntrlType>3</cntrlType>
+				<name>fontStrikethru</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontUnderline">
+				<cntrlType>3</cntrlType>
+				<name>fontUnderline</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="foreColor">
+				<cntrlType>7</cntrlType>
+				<name>foreColor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hasPictures">
+				<cntrlType>3</cntrlType>
+				<name>hasPictures</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hasPlusMinus">
+				<cntrlType>3</cntrlType>
+				<name>hasPlusMinus</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hasTreeLines">
+				<cntrlType>3</cntrlType>
+				<name>hasTreeLines</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="height">
+				<cntrlType>10</cntrlType>
+				<name>height</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpContextId">
+				<cntrlType>5</cntrlType>
+				<name>helpContextId</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpKeyword">
+				<cntrlType>2</cntrlType>
+				<name>helpKeyword</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="ignoreSkin">
+				<cntrlType>3</cntrlType>
+				<name>ignoreSkin</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="integralHeight">
+				<cntrlType>3</cntrlType>
+				<name>integralHeight</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="left">
+				<cntrlType>10</cntrlType>
+				<name>left</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mouseCursor">
+				<cntrlType>11</cntrlType>
+				<name>mouseCursor</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mousePointer">
+				<cntrlType>100</cntrlType>
+				<name>mousePointer</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - Default</String>
+					<String> 1 - Arrow</String>
+					<String> 2 - Cross</String>
+					<String> 3 - I-Beam</String>
+					<String> 4 - Icon</String>
+					<String> 5 - Size</String>
+					<String> 6 - Size NE SW</String>
+					<String> 7 - Size N S</String>
+					<String> 8 - Size NW SE</String>
+					<String> 9 - Size W E</String>
+					<String>10 - Up Arrow</String>
+					<String>11 - HourGlass</String>
+					<String>12 - No Drop</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="multiSelect">
+				<cntrlType>100</cntrlType>
+				<name>multiSelect</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Simple</String>
+					<String>2 - Extended</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="name">
+				<cntrlType>1</cntrlType>
+				<name>name</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="nameSeparator">
+				<cntrlType>2</cntrlType>
+				<name>nameSeparator</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parent">
+				<cntrlType>-102</cntrlType>
+				<name>parent</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentAspect">
+				<cntrlType>100</cntrlType>
+				<name>parentAspect</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - None</String>
+					<String> 1 - Stretch Right</String>
+					<String> 2 - Stretch Bottom</String>
+					<String> 3 - Stretch Both</String>
+					<String> 4 - Anchor Right</String>
+					<String> 6 - Anchor Right &amp; Stretch Bottom</String>
+					<String> 8 - Anchor Bottom</String>
+					<String> 9 - Anchor Bottom &amp; Stretch Right</String>
+					<String>12 - Anchor Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="parentBottomOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentBottomOffset</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentRightOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentRightOffset</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="pictureClosed">
+				<cntrlType>11</cntrlType>
+				<name>pictureClosed</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="pictureLeaf">
+				<cntrlType>11</cntrlType>
+				<name>pictureLeaf</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="pictureMinus">
+				<cntrlType>11</cntrlType>
+				<name>pictureMinus</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="pictureOpen">
+				<cntrlType>11</cntrlType>
+				<name>pictureOpen</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="picturePlus">
+				<cntrlType>11</cntrlType>
+				<name>picturePlus</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeHeight">
+				<cntrlType>3</cntrlType>
+				<name>relativeHeight</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeLeft">
+				<cntrlType>3</cntrlType>
+				<name>relativeLeft</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeTop">
+				<cntrlType>3</cntrlType>
+				<name>relativeTop</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeWidth">
+				<cntrlType>3</cntrlType>
+				<name>relativeWidth</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollBars">
+				<cntrlType>100</cntrlType>
+				<name>scrollBars</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Horizontal</String>
+					<String>2 - Vertical</String>
+					<String>3 - Both</String>
+					<String>4 - permanent Horizontal</String>
+					<String>5 - permanent Vertical</String>
+					<String>6 - permanent both</String>
+					<String>7 - Horizontal, permanent Vertical</String>
+					<String>8 - Vertical, permanent Horizontal</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollHorizontal">
+				<cntrlType>100</cntrlType>
+				<name>scrollHorizontal</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - no horizontal scroll bar</String>
+					<String>1 - automatic horizontal scroll bar</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelEnabled">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelEnabled</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelVisible">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelVisible</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="show3D">
+				<cntrlType>100</cntrlType>
+				<name>show3D</name>
+				<parent name="CollectionListBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - use application default</String>
+					<String>1 - Not 3D</String>
+					<String>2 - Use 3D</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="skinCategoryName">
+				<cntrlType>2</cntrlType>
+				<name>skinCategoryName</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="sortAsc">
+				<cntrlType>3</cntrlType>
+				<name>sortAsc</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="sortCased">
+				<cntrlType>3</cntrlType>
+				<name>sortCased</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="sorted">
+				<cntrlType>3</cntrlType>
+				<name>sorted</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabIndex">
+				<cntrlType>4</cntrlType>
+				<name>tabIndex</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabStop">
+				<cntrlType>3</cntrlType>
+				<name>tabStop</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tag">
+				<cntrlType>2</cntrlType>
+				<name>tag</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="top">
+				<cntrlType>10</cntrlType>
+				<name>top</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="visible">
+				<cntrlType>3</cntrlType>
+				<name>visible</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="width">
+				<cntrlType>10</cntrlType>
+				<name>width</name>
+				<parent name="CollectionListBox" />
+			</PainterControlProperty>
+		</PainterControlProperties>
+	</PainterControlDefinition>
+
+	<PainterControlDefinition name="CollectionListBoxVertScrollBar">
+		<bitmap>AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA
+/wD/AP//AAD///8AAAB3d3d3cAAAAAAAAABwAAAAiICIgHAAAACIAAiAcAAAAIiIiIBwAAAAAAAA
+AHAAAACPj4+AcAAAAPj4+PBwAAAAj4+PgHAAAAB3d3dwcAAAAAAAAABwAAAAiIiIgHAAAACIAAiA
+cAAAAIiAiIBwAAAAAAAAAAAAAAAAAAAAAADwBwAA4AcAAOAHAADgBwAA4AcAAOAHAADgBwAA4AcA
+AOAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAPAAD//wAA</bitmap>
+		<bitmapDisabled/>
+		<bitmapDown/>
+		<bitmapID>0</bitmapID>
+		<bitmapOver/>
+		<hideFromPainterControlPalette>true</hideFromPainterControlPalette>
+		<name>CollectionListBoxVertScrollBar</name>
+		<windowClass>AlVScroll</windowClass>
+		<PainterControlProperties>
+			<PainterControlProperty name="backBrush">
+				<cntrlType>11</cntrlType>
+				<name>backBrush</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backBrushStyle">
+				<cntrlType>100</cntrlType>
+				<name>backBrushStyle</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+				<PainterControlPropertyOptions>
+					<String>0 - tile</String>
+					<String>1 - stretch</String>
+					<String>2 - center</String>
+					<String>3 - stretch proportional</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="borderColorSingle">
+				<cntrlType>7</cntrlType>
+				<name>borderColorSingle</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderStyle">
+				<cntrlType>100</cntrlType>
+				<name>borderStyle</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Single</String>
+					<String>2 - 3D sunken</String>
+					<String>3 - 3D raised</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bubbleHelp">
+				<cntrlType>2</cntrlType>
+				<name>bubbleHelp</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="description">
+				<cntrlType>2</cntrlType>
+				<name>description</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="dragCursor">
+				<cntrlType>11</cntrlType>
+				<name>dragCursor</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="enabled">
+				<cntrlType>3</cntrlType>
+				<name>enabled</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="height">
+				<cntrlType>10</cntrlType>
+				<name>height</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpContextId">
+				<cntrlType>5</cntrlType>
+				<name>helpContextId</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpKeyword">
+				<cntrlType>2</cntrlType>
+				<name>helpKeyword</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="ignoreSkin">
+				<cntrlType>3</cntrlType>
+				<name>ignoreSkin</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="largeChange">
+				<cntrlType>4</cntrlType>
+				<name>largeChange</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="left">
+				<cntrlType>10</cntrlType>
+				<name>left</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="max">
+				<cntrlType>4</cntrlType>
+				<name>max</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="min">
+				<cntrlType>4</cntrlType>
+				<name>min</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mouseCursor">
+				<cntrlType>11</cntrlType>
+				<name>mouseCursor</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mousePointer">
+				<cntrlType>100</cntrlType>
+				<name>mousePointer</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+				<PainterControlPropertyOptions>
+					<String> 0 - Default</String>
+					<String> 1 - Arrow</String>
+					<String> 2 - Cross</String>
+					<String> 3 - I-Beam</String>
+					<String> 4 - Icon</String>
+					<String> 5 - Size</String>
+					<String> 6 - Size NE SW</String>
+					<String> 7 - Size N S</String>
+					<String> 8 - Size NW SE</String>
+					<String> 9 - Size W E</String>
+					<String>10 - Up Arrow</String>
+					<String>11 - HourGlass</String>
+					<String>12 - No Drop</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="name">
+				<cntrlType>1</cntrlType>
+				<name>name</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parent">
+				<cntrlType>-102</cntrlType>
+				<name>parent</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentAspect">
+				<cntrlType>100</cntrlType>
+				<name>parentAspect</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+				<PainterControlPropertyOptions>
+					<String> 0 - None</String>
+					<String> 1 - Stretch Right</String>
+					<String> 2 - Stretch Bottom</String>
+					<String> 3 - Stretch Both</String>
+					<String> 4 - Anchor Right</String>
+					<String> 6 - Anchor Right &amp; Stretch Bottom</String>
+					<String> 8 - Anchor Bottom</String>
+					<String> 9 - Anchor Bottom &amp; Stretch Right</String>
+					<String>12 - Anchor Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="parentBottomOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentBottomOffset</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentRightOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentRightOffset</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeHeight">
+				<cntrlType>3</cntrlType>
+				<name>relativeHeight</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeLeft">
+				<cntrlType>3</cntrlType>
+				<name>relativeLeft</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeTop">
+				<cntrlType>3</cntrlType>
+				<name>relativeTop</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeWidth">
+				<cntrlType>3</cntrlType>
+				<name>relativeWidth</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelEnabled">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelEnabled</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelVisible">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelVisible</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="skinCategoryName">
+				<cntrlType>2</cntrlType>
+				<name>skinCategoryName</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="smallChange">
+				<cntrlType>4</cntrlType>
+				<name>smallChange</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabIndex">
+				<cntrlType>4</cntrlType>
+				<name>tabIndex</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabStop">
+				<cntrlType>3</cntrlType>
+				<name>tabStop</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tag">
+				<cntrlType>2</cntrlType>
+				<name>tag</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="top">
+				<cntrlType>10</cntrlType>
+				<name>top</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="value">
+				<cntrlType>4</cntrlType>
+				<name>value</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="visible">
+				<cntrlType>3</cntrlType>
+				<name>visible</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+			<PainterControlProperty name="width">
+				<cntrlType>10</cntrlType>
+				<name>width</name>
+				<parent name="CollectionListBoxVertScrollBar" />
+			</PainterControlProperty>
+		</PainterControlProperties>
+	</PainterControlDefinition>
+
+	<PainterControlDefinition name="ReadOnlyTextBox">
+		<bitmap>AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA
+/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAd3d3d3d3d3AAAAAAAAAAcP////////Bw/w8P//
+//8HD/8P/////wcP/w//////Bw//D/////8HD/8P/////wcP/w//////Bw/w8P////8HD///////
+/wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAP//AAD//wAA</bitmap>
+		<bitmapDisabled/>
+		<bitmapDown/>
+		<bitmapID>0</bitmapID>
+		<bitmapOver/>
+		<hideFromPainterControlPalette>false</hideFromPainterControlPalette>
+		<name>ReadOnlyTextBox</name>
+		<windowClass>AlText</windowClass>
+		<PainterControlProperties>
+			<PainterControlProperty name="alignment">
+				<cntrlType>100</cntrlType>
+				<name>alignment</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - Left Justify</String>
+					<String>1 - Right Justify</String>
+					<String>2 - Center</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="autoTab">
+				<cntrlType>3</cntrlType>
+				<name>autoTab</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backColor">
+				<cntrlType>7</cntrlType>
+				<name>backColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderColorSingle">
+				<cntrlType>7</cntrlType>
+				<name>borderColorSingle</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderStyle">
+				<cntrlType>100</cntrlType>
+				<name>borderStyle</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Fixed single</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bubbleHelp">
+				<cntrlType>2</cntrlType>
+				<name>bubbleHelp</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="case">
+				<cntrlType>100</cntrlType>
+				<name>case</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Convert to lower case</String>
+					<String>2 - Convert to Upper case</String>
+					<String>3 - Upper case first character</String>
+					<String>4 - Lower case first character</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="dataType">
+				<cntrlType>100</cntrlType>
+				<name>dataType</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - Alphanumeric</String>
+					<String>1 - numeric</String>
+					<String>2 - signed numeric</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="decimals">
+				<cntrlType>4</cntrlType>
+				<name>decimals</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="description">
+				<cntrlType>2</cntrlType>
+				<name>description</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="dragCursor">
+				<cntrlType>11</cntrlType>
+				<name>dragCursor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="enabled">
+				<cntrlType>3</cntrlType>
+				<name>enabled</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusBackColor">
+				<cntrlType>7</cntrlType>
+				<name>focusBackColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusForeColor">
+				<cntrlType>7</cntrlType>
+				<name>focusForeColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontBold">
+				<cntrlType>3</cntrlType>
+				<name>fontBold</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontItalic">
+				<cntrlType>3</cntrlType>
+				<name>fontItalic</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontName">
+				<cntrlType>8</cntrlType>
+				<name>fontName</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontSize">
+				<cntrlType>9</cntrlType>
+				<name>fontSize</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontStrikethru">
+				<cntrlType>3</cntrlType>
+				<name>fontStrikethru</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontUnderline">
+				<cntrlType>3</cntrlType>
+				<name>fontUnderline</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="foreColor">
+				<cntrlType>7</cntrlType>
+				<name>foreColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="formatOut">
+				<cntrlType>2</cntrlType>
+				<name>formatOut</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="height">
+				<cntrlType>10</cntrlType>
+				<name>height</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpContextId">
+				<cntrlType>5</cntrlType>
+				<name>helpContextId</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpKeyword">
+				<cntrlType>2</cntrlType>
+				<name>helpKeyword</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintBackColor">
+				<cntrlType>7</cntrlType>
+				<name>hintBackColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintForeColor">
+				<cntrlType>7</cntrlType>
+				<name>hintForeColor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintText">
+				<cntrlType>2</cntrlType>
+				<name>hintText</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="ignoreSkin">
+				<cntrlType>3</cntrlType>
+				<name>ignoreSkin</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="integralHeight">
+				<cntrlType>3</cntrlType>
+				<name>integralHeight</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="left">
+				<cntrlType>10</cntrlType>
+				<name>left</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="maxLength">
+				<cntrlType>4</cntrlType>
+				<name>maxLength</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mouseCursor">
+				<cntrlType>11</cntrlType>
+				<name>mouseCursor</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mousePointer">
+				<cntrlType>100</cntrlType>
+				<name>mousePointer</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - Default</String>
+					<String> 1 - Arrow</String>
+					<String> 2 - Cross</String>
+					<String> 3 - I-Beam</String>
+					<String> 4 - Icon</String>
+					<String> 5 - Size</String>
+					<String> 6 - Size NE SW</String>
+					<String> 7 - Size N S</String>
+					<String> 8 - Size NW SE</String>
+					<String> 9 - Size W E</String>
+					<String>10 - Up Arrow</String>
+					<String>11 - HourGlass</String>
+					<String>12 - No Drop</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="name">
+				<cntrlType>1</cntrlType>
+				<name>name</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parent">
+				<cntrlType>-102</cntrlType>
+				<name>parent</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentAspect">
+				<cntrlType>100</cntrlType>
+				<name>parentAspect</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - None</String>
+					<String> 1 - Stretch Right</String>
+					<String> 2 - Stretch Bottom</String>
+					<String> 3 - Stretch Both</String>
+					<String> 4 - Anchor Right</String>
+					<String> 6 - Anchor Right &amp; Stretch Bottom</String>
+					<String> 8 - Anchor Bottom</String>
+					<String> 9 - Anchor Bottom &amp; Stretch Right</String>
+					<String>12 - Anchor Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="parentBottomOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentBottomOffset</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentRightOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentRightOffset</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="passwordField">
+				<cntrlType>3</cntrlType>
+				<name>passwordField</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="readOnly">
+				<cntrlType>3</cntrlType>
+				<name>readOnly</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeHeight">
+				<cntrlType>3</cntrlType>
+				<name>relativeHeight</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeLeft">
+				<cntrlType>3</cntrlType>
+				<name>relativeLeft</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeTop">
+				<cntrlType>3</cntrlType>
+				<name>relativeTop</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeWidth">
+				<cntrlType>3</cntrlType>
+				<name>relativeWidth</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollBars">
+				<cntrlType>100</cntrlType>
+				<name>scrollBars</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Horizontal</String>
+					<String>2 - Vertical</String>
+					<String>3 - Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollHorizontal">
+				<cntrlType>3</cntrlType>
+				<name>scrollHorizontal</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollVertical">
+				<cntrlType>3</cntrlType>
+				<name>scrollVertical</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelEnabled">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelEnabled</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelVisible">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelVisible</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="selectionStyle">
+				<cntrlType>100</cntrlType>
+				<name>selectionStyle</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - show selection on lostFocus</String>
+					<String>1 - hide selection on lostFocus</String>
+					<String>2 - select all on gotFocus</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="show3D">
+				<cntrlType>100</cntrlType>
+				<name>show3D</name>
+				<parent name="ReadOnlyTextBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - use application default</String>
+					<String>1 - Not 3D</String>
+					<String>2 - Use 3D</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="skinCategoryName">
+				<cntrlType>2</cntrlType>
+				<name>skinCategoryName</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabIndex">
+				<cntrlType>4</cntrlType>
+				<name>tabIndex</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabStop">
+				<cntrlType>3</cntrlType>
+				<name>tabStop</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tag">
+				<cntrlType>2</cntrlType>
+				<name>tag</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="text">
+				<cntrlType>2</cntrlType>
+				<name>text</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="textOffset">
+				<cntrlType>4</cntrlType>
+				<name>textOffset</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="top">
+				<cntrlType>10</cntrlType>
+				<name>top</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="visible">
+				<cntrlType>3</cntrlType>
+				<name>visible</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="wantReturn">
+				<cntrlType>3</cntrlType>
+				<name>wantReturn</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="width">
+				<cntrlType>10</cntrlType>
+				<name>width</name>
+				<parent name="ReadOnlyTextBox" />
+			</PainterControlProperty>
+		</PainterControlProperties>
+	</PainterControlDefinition>
+
+	<PainterControlDefinition name="DateBox">
+		<bitmap>AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA
+/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAd3d3d3d3d3AAAAAAAAAAcP////////Bw/w8P//
+//8HD/8P/////wcP/w//////Bw//D/////8HD/8P/////wcP/w//////Bw/w8P////8HD///////
+/wcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAP//AAD//wAA</bitmap>
+		<bitmapDisabled/>
+		<bitmapDown/>
+		<bitmapID>0</bitmapID>
+		<bitmapOver/>
+		<hideFromPainterControlPalette>false</hideFromPainterControlPalette>
+		<name>DateBox</name>
+		<windowClass>AlText</windowClass>
+		<PainterControlProperties>
+			<PainterControlProperty name="alignment">
+				<cntrlType>100</cntrlType>
+				<name>alignment</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - Left Justify</String>
+					<String>1 - Right Justify</String>
+					<String>2 - Center</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="autoTab">
+				<cntrlType>3</cntrlType>
+				<name>autoTab</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="backColor">
+				<cntrlType>7</cntrlType>
+				<name>backColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderColorSingle">
+				<cntrlType>7</cntrlType>
+				<name>borderColorSingle</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="borderStyle">
+				<cntrlType>100</cntrlType>
+				<name>borderStyle</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Fixed single</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="bubbleHelp">
+				<cntrlType>2</cntrlType>
+				<name>bubbleHelp</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="case">
+				<cntrlType>100</cntrlType>
+				<name>case</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Convert to lower case</String>
+					<String>2 - Convert to Upper case</String>
+					<String>3 - Upper case first character</String>
+					<String>4 - Lower case first character</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="dataType">
+				<cntrlType>100</cntrlType>
+				<name>dataType</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - Alphanumeric</String>
+					<String>1 - numeric</String>
+					<String>2 - signed numeric</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="decimals">
+				<cntrlType>4</cntrlType>
+				<name>decimals</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="defaultToToday">
+				<cntrlType>3</cntrlType>
+				<name>defaultToToday</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="description">
+				<cntrlType>2</cntrlType>
+				<name>description</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="dragCursor">
+				<cntrlType>11</cntrlType>
+				<name>dragCursor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="enabled">
+				<cntrlType>3</cntrlType>
+				<name>enabled</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusBackColor">
+				<cntrlType>7</cntrlType>
+				<name>focusBackColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="focusForeColor">
+				<cntrlType>7</cntrlType>
+				<name>focusForeColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontBold">
+				<cntrlType>3</cntrlType>
+				<name>fontBold</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontItalic">
+				<cntrlType>3</cntrlType>
+				<name>fontItalic</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontName">
+				<cntrlType>8</cntrlType>
+				<name>fontName</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontSize">
+				<cntrlType>9</cntrlType>
+				<name>fontSize</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontStrikethru">
+				<cntrlType>3</cntrlType>
+				<name>fontStrikethru</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="fontUnderline">
+				<cntrlType>3</cntrlType>
+				<name>fontUnderline</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="foreColor">
+				<cntrlType>7</cntrlType>
+				<name>foreColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="formatOut">
+				<cntrlType>2</cntrlType>
+				<name>formatOut</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="height">
+				<cntrlType>10</cntrlType>
+				<name>height</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpContextId">
+				<cntrlType>5</cntrlType>
+				<name>helpContextId</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="helpKeyword">
+				<cntrlType>2</cntrlType>
+				<name>helpKeyword</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintBackColor">
+				<cntrlType>7</cntrlType>
+				<name>hintBackColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintForeColor">
+				<cntrlType>7</cntrlType>
+				<name>hintForeColor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="hintText">
+				<cntrlType>2</cntrlType>
+				<name>hintText</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="ignoreSkin">
+				<cntrlType>3</cntrlType>
+				<name>ignoreSkin</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="integralHeight">
+				<cntrlType>3</cntrlType>
+				<name>integralHeight</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="left">
+				<cntrlType>10</cntrlType>
+				<name>left</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="maxLength">
+				<cntrlType>4</cntrlType>
+				<name>maxLength</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mouseCursor">
+				<cntrlType>11</cntrlType>
+				<name>mouseCursor</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="mousePointer">
+				<cntrlType>100</cntrlType>
+				<name>mousePointer</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - Default</String>
+					<String> 1 - Arrow</String>
+					<String> 2 - Cross</String>
+					<String> 3 - I-Beam</String>
+					<String> 4 - Icon</String>
+					<String> 5 - Size</String>
+					<String> 6 - Size NE SW</String>
+					<String> 7 - Size N S</String>
+					<String> 8 - Size NW SE</String>
+					<String> 9 - Size W E</String>
+					<String>10 - Up Arrow</String>
+					<String>11 - HourGlass</String>
+					<String>12 - No Drop</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="name">
+				<cntrlType>1</cntrlType>
+				<name>name</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parent">
+				<cntrlType>-102</cntrlType>
+				<name>parent</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentAspect">
+				<cntrlType>100</cntrlType>
+				<name>parentAspect</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String> 0 - None</String>
+					<String> 1 - Stretch Right</String>
+					<String> 2 - Stretch Bottom</String>
+					<String> 3 - Stretch Both</String>
+					<String> 4 - Anchor Right</String>
+					<String> 6 - Anchor Right &amp; Stretch Bottom</String>
+					<String> 8 - Anchor Bottom</String>
+					<String> 9 - Anchor Bottom &amp; Stretch Right</String>
+					<String>12 - Anchor Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="parentBottomOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentBottomOffset</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="parentRightOffset">
+				<cntrlType>14</cntrlType>
+				<name>parentRightOffset</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="passwordField">
+				<cntrlType>3</cntrlType>
+				<name>passwordField</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="readOnly">
+				<cntrlType>3</cntrlType>
+				<name>readOnly</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeHeight">
+				<cntrlType>3</cntrlType>
+				<name>relativeHeight</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeLeft">
+				<cntrlType>3</cntrlType>
+				<name>relativeLeft</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeTop">
+				<cntrlType>3</cntrlType>
+				<name>relativeTop</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="relativeWidth">
+				<cntrlType>3</cntrlType>
+				<name>relativeWidth</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollBars">
+				<cntrlType>100</cntrlType>
+				<name>scrollBars</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - None</String>
+					<String>1 - Horizontal</String>
+					<String>2 - Vertical</String>
+					<String>3 - Both</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollHorizontal">
+				<cntrlType>3</cntrlType>
+				<name>scrollHorizontal</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="scrollVertical">
+				<cntrlType>3</cntrlType>
+				<name>scrollVertical</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelEnabled">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelEnabled</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="securityLevelVisible">
+				<cntrlType>4</cntrlType>
+				<name>securityLevelVisible</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="selectionStyle">
+				<cntrlType>100</cntrlType>
+				<name>selectionStyle</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - show selection on lostFocus</String>
+					<String>1 - hide selection on lostFocus</String>
+					<String>2 - select all on gotFocus</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="show3D">
+				<cntrlType>100</cntrlType>
+				<name>show3D</name>
+				<parent name="DateBox" />
+				<PainterControlPropertyOptions>
+					<String>0 - use application default</String>
+					<String>1 - Not 3D</String>
+					<String>2 - Use 3D</String>
+				</PainterControlPropertyOptions>
+			</PainterControlProperty>
+			<PainterControlProperty name="skinCategoryName">
+				<cntrlType>2</cntrlType>
+				<name>skinCategoryName</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabIndex">
+				<cntrlType>4</cntrlType>
+				<name>tabIndex</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tabStop">
+				<cntrlType>3</cntrlType>
+				<name>tabStop</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="tag">
+				<cntrlType>2</cntrlType>
+				<name>tag</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="text">
+				<cntrlType>2</cntrlType>
+				<name>text</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="textOffset">
+				<cntrlType>4</cntrlType>
+				<name>textOffset</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="top">
+				<cntrlType>10</cntrlType>
+				<name>top</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="visible">
+				<cntrlType>3</cntrlType>
+				<name>visible</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="wantReturn">
+				<cntrlType>3</cntrlType>
+				<name>wantReturn</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+			<PainterControlProperty name="width">
+				<cntrlType>10</cntrlType>
+				<name>width</name>
+				<parent name="DateBox" />
+			</PainterControlProperty>
+		</PainterControlProperties>
+	</PainterControlDefinition>
+</schema>

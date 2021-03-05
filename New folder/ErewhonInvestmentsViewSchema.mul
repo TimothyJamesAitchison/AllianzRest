@@ -1,0 +1,5 @@
+#MULTIPLE_SCHEMA_EXTRACT
+CommonSchema.scm CommonSchema.ddx
+SelfDocumentorSchema.scm SelfDocumentorSchema.ddx
+ErewhonInvestmentsModelSchema.scm ErewhonInvestmentsModelSchema.ddx
+ErewhonInvestmentsViewSchema.scm ErewhonInvestmentsViewSchema.ddx
